@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+    }
+    .root{
+        width: 640px;
+        height: 500px;
+        display: flex;
+        background: url('/1095993259436860458.jpg') no-repeat center center;
+        justify-content: center;
+        align-items: center;
+        background-color: #ececec;
+    }
+    .product{
+        width: 530px;
+        height: 380px;
+        display: flex;
+        background-color: #e0e0e0;
+        border-radius: 0px 25px 25px 0px;
+    }
+    .right{
+        width: 45%;
+        padding: 25px;
+    }
+    .left{
+        width: 55%;
+        height: 100%;
+        border-radius: 0 50% 50% 0;
+        background-color: #ffde25;
+        position: relative;
+    }
+    .shoe-image{
+       position: absolute;
+       top: -2%;
+       left: -58px;
+       width: 350px;
+    }
+    .content{
+        margin-top: 60px;
+    }
+    .logo{
+        color: #ffde25;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .color{
+        color: gray;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .goat{
+        color: black;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+    .price1{
+        color: gray;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .price2{
+        color: gray;
+        font-size: 17px;
+        font-weight: 600;
+        text-decoration: line-through;
+        text-decoration-color: red;
+    }
+    .size{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+    .size-number span{
+        margin-right: 29px;
+
+    }
+    .s{
+        color: gray;
+        font-size: 14px;
+    }
+    .white{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .black{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .gold{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ffde25;
+    }
+    .color{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    .color-box{
+        display: flex;
+        gap: 30px;
+    }
+    .bg{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+    }
+    .footer{
+        display: flex;
+        gap: 50px;
+        margin-top: 15px;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .footer span{
+        font-size:15px;
+        color: gray;
+    }
+</style>
+</head>
+<body>
+    <div class="root">
+        <div class="product">
+        <div class="left"> <img src="Nike_CR7_Vitorias_White_and_Gold-removebg-preview.png" alt="" class="shoe-image"></div>
+        <div class="right">
+            <span class="logo">CR7 GOLD</span>
+            <div class="content">
+                <div class="bg">
+                <span class="color">Black & White & Gold</span> <br>
+                <span class="goat">GOAT BOOTS </span>
+                </div>
+
+                <div class="price">
+                    <span class="price1"> $199.99 </span>
+                    <span class="price2"> $299.99 </span>
+                </div>
+                <div class="size">
+                    <span class="s">SIZE</span>
+                    <div class="size-number"><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span></div>
+                </div>
+                <div class="color">
+                    <span class="s">COLOR</span>
+                    <div class="color-box">
+                        <div class="white"></div>
+                        <div class="black"></div>
+                        <div class="gold"></div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <span>Buy Now</span> Add to Cart
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
